@@ -127,54 +127,6 @@ export const DATA = {
       description:
         "Abhail Physiotherapy (Ireland): Map-integrated booking platform with real-time slot availability — increased patient acquisition. TheKnowAI (US): AI-powered career-risk analyzer computing AI-replacement probability from LinkedIn data with personalized upskilling recommendations.",
     },
-    {
-      company: "Referrush",
-      href: "https://www.referrush.com/",
-      badges: [],
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/referrush.png",
-      start: "Jan 2025",
-      end: "Present",
-      description:
-        "Currently working as a software engineer at Referrush building the product that includes their web application and shopify apps and extensions that will help thousands of brands in increasing their sales through direct customer referrals.",
-    },
-    {
-      company: "Keyshade",
-      href: "https://www.keyshade.xyz/",
-      badges: [],
-      location: "Remote",
-      title: "Frontend Engineer",
-      logoUrl: "/keyshade.png",
-      start: "November 2024",
-      end: "Jan 2025",
-      description:
-        "Currently working as a frontend engineer at Keyshade developing frontends for their Platform and Web application. Collaborating with the backend team to ship code with minimum production time errors and building with full efficiency. Being part of an open-source organization, also taking parts in PR reviews on Github.",
-    },
-    {
-      company: "ChaiFluence",
-      badges: [],
-      href: "#",
-      location: "Remote",
-      title: "SDE Intern",
-      logoUrl: "/chaifluence.png",
-      start: "June 2024",
-      end: "July 2024",
-      description:
-        "Incorporated the first website for the organization. Boosted operations by 50% through efficient AI integration in day-to-day processes.Devised strategy to increase the social media presence by 100%.",
-    },
-    {
-      company: "The IT Studio",
-      href: "#",
-      badges: [],
-      location: "Remote",
-      title: "Technical Content Developer",
-      logoUrl: "./building.png",
-      start: "July 2023",
-      end: "November 2023",
-      description:
-        "Delivered technical content related to technologies like TypeScript, Next.js, and React.js for the organization's web application and social media handles. Worked with 10+ clients in setting up their web application and providing content in the technical domain. Boosted the organization's social media presence by 80% in the span of 3 months.",
-    },
   ],
   education: [
     {
