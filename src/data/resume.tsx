@@ -8,45 +8,54 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Developer | Reader | Writer",
+    "Software Development Engineer · Full-Stack & AI/ML Systems",
   summary:
-    "Hey there! I'm Saswat Pattanaik – a developer always on the lookout for challenging problems to solve. Lately, I’ve been diving deep into [Solidity](https://soliditylang.org/), [ML](https://www.amazon.in/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/9355421982) , and [Golang](https://go.dev/), exploring new ways to push the boundaries of technology.Beyond coding, I love watching anime, traveling solo, and seizing every opportunity to learn and build something exciting.Let’s connect! You can find me on [Twitter](https://x.com/SaswatPatt86285) and [GitHub](https://github.com/sashhh31).Feel free to check out my [resume!](https://docs.google.com/document/d/1sXrooB9xPJB6ov1BvxPcmJeL2TNi9T9_/edit?usp=sharing&ouid=101735334093907301993&rtpof=true&sd=true)",
+    "Hey there! I'm Saswat Pattanaik – an SDE with production experience across the full SDLC, system design, REST API development, CI/CD deployment, and cloud infrastructure. I've shipped SaaS platforms and AI/ML pipelines for international clients in Agile remote teams. I'm currently diving deep into Machine Learning (ML) and am actively seeking an internship. Beyond coding, I love watching anime, traveling solo, and seizing every opportunity to learn and build something exciting. Let’s connect! You can find me on [Twitter](https://x.com/SaswatPatt86285) and [GitHub](https://github.com/saswatt31). Feel free to check out my [resume!](https://docs.google.com/document/d/1sXrooB9xPJB6ov1BvxPcmJeL2TNi9T9_/edit?usp=sharing&ouid=101735334093907301993&rtpof=true&sd=true)",
   avatarUrl: "/PROFILE.jpeg",
   skills: [
     "React.js",
-    "Next.js",
+    "Next.js 14",
     "JavaScript",
-    "Typescript",
+    "TypeScript",
     "Node.js",
     "Express.js",
-    "Appwrite",
-    "Socket.io",
-    "Redux",
-    "Tailwind",
-    "ShadCN",
-    "NPM",
+    "FastAPI",
     "Python",
-    "Go",
-    "Postgres",
-    "MongoDB",
-    "Docker",
-    "Github",
     "C++",
-    "Postman",
-    "Vercel",
-    "Data Structures",
-    "Algorithms",
-    "solidity",
+    "Go",
+    "REST API Design",
     "Socket.io",
     "WebRTC",
+    "SSE",
+    "Tailwind CSS",
+    "ShadCN",
+    "Framer Motion",
+    "Chart.js",
+    "Claude API",
+    "Gemini API",
+    "RAG",
+    "Groq (Llama 3.3 70B)",
+    "YOLOv8",
+    "Qdrant",
+    "PostgreSQL",
+    "MongoDB",
     "Redis",
-    "Drizzle ORM",
+    "Supabase",
+    "Appwrite",
     "Prisma",
-    "FireBase",
-    "Cloudinary",
-    "NextAuth.js",
-    "Zod",
-    "Hono"
+    "Drizzle ORM",
+    "Docker",
+    "GitHub CI/CD",
+    "Vercel",
+    "Stripe",
+    "System Design",
+    "Agile/Scrum",
+    "SDLC",
+    "Unit Testing",
+    "Microservices",
+    "Event Sourcing",
+    "Data Structures",
+    "Algorithms"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -58,7 +67,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/sashhh31",
+        url: "https://github.com/saswatt31",
         icon: Icons.github,
 
         navbar: true,
@@ -85,7 +94,7 @@ export const DATA = {
       // },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "saswatpattanaik.dev@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -93,62 +102,85 @@ export const DATA = {
     },
   },
 
-  // work: [
-  //   {
-  //     company: "Referrush",
-  //     href: "https://www.referrush.com/",
-  //     badges: [],
-  //     location: "Remote",
-  //     title: "Software Engineer",
-  //     logoUrl: "/referrush.png",
-  //     start: "Jan 2025",
-  //     end: "Present",
-  //     description:
-  //       "Currently working as a software engineer at Referrush building the product that includes their web application and shopify apps and extensions that will help thousands of brands in increasing their sales through direct customer referrals.",
-  //   },
-  //   //test comment 2
-  //   {
-  //     company: "Keyshade",
-  //     href: "https://www.keyshade.xyz/",
-  //     badges: [],
-  //     location: "Remote",
-  //     title: "Frontend Engineer",
-  //     logoUrl: "/keyshade.png",
-  //     start: "November 2024",
-  //     end: "Jan 2025",
-  //     description:
-  //       "Currently working as a frontend engineer at Keyshade developing frontends for their Platform and Web application. Collaborating with the backend team to ship code with minimum production time errors and building with full efficiency. Being part of an open-source organization, also taking parts in PR reviews on Github.",
-  //   },
-  //   {
-  //     company: "ChaiFluence",
-  //     badges: [],
-  //     href: "#",
-  //     location: "Remote",
-  //     title: "SDE Intern",
-  //     logoUrl: "/chaifluence.png",
-  //     start: "June 2024",
-  //     end: "July 2024",
-  //     description:
-  //       "Incorporated the first website for the organization. Boosted operations by 50% through efficient AI integration in day-to-day processes.Devised strategy to increase the social media presence by 100%.",
-  //   },
-  //   {
-  //     company: "The IT Studio",
-  //     href: "#",
-  //     badges: [],
-  //     location: "Remote",
-  //     title: "Technical Content Developer",
-  //     logoUrl: "./building.png",
-  //     start: "July 2023",
-  //     end: "November 2023",
-  //     description:
-  //       "Delivered technical content related to technologies like TypeScript, Next.js, and React.js for the organization's web application and social media handles. Worked with 10+ clients in setting up their web application and providing content in the technical domain. Boosted the organization's social media presence by 80% in the span of 3 months.",
-  //   },
-  // ],
+  work: [
+    {
+      company: "CVBold.io / Webxcell Digital",
+      href: "#",
+      badges: [],
+      location: "Remote, UK",
+      title: "Freelance Software Developer",
+      logoUrl: "",
+      start: "April 2026",
+      end: "Present",
+      description:
+        "Architected a 9-step CV builder (Next.js 14, TypeScript, Zustand) with full Stripe subscription lifecycle and RBAC Pro feature gating, reducing user drop-off across the checkout funnel. Built 7 AI career tools (CV scorer, ATS analyzer, interview coach) using Anthropic Claude API with SSE streaming, per-user quota enforcement, and secure JSONB storage in Supabase (PostgreSQL + RLS). Collaborated in Agile sprints — code reviews, REST API design, and iterative production releases within a 3-person distributed team.",
+    },
+    {
+      company: "Independent Freelance",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Freelance Software Developer",
+      logoUrl: "",
+      start: "2024",
+      end: "2025",
+      description:
+        "Abhail Physiotherapy (Ireland): Map-integrated booking platform with real-time slot availability — increased patient acquisition. TheKnowAI (US): AI-powered career-risk analyzer computing AI-replacement probability from LinkedIn data with personalized upskilling recommendations.",
+    },
+    {
+      company: "Referrush",
+      href: "https://www.referrush.com/",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "/referrush.png",
+      start: "Jan 2025",
+      end: "Present",
+      description:
+        "Currently working as a software engineer at Referrush building the product that includes their web application and shopify apps and extensions that will help thousands of brands in increasing their sales through direct customer referrals.",
+    },
+    {
+      company: "Keyshade",
+      href: "https://www.keyshade.xyz/",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Engineer",
+      logoUrl: "/keyshade.png",
+      start: "November 2024",
+      end: "Jan 2025",
+      description:
+        "Currently working as a frontend engineer at Keyshade developing frontends for their Platform and Web application. Collaborating with the backend team to ship code with minimum production time errors and building with full efficiency. Being part of an open-source organization, also taking parts in PR reviews on Github.",
+    },
+    {
+      company: "ChaiFluence",
+      badges: [],
+      href: "#",
+      location: "Remote",
+      title: "SDE Intern",
+      logoUrl: "/chaifluence.png",
+      start: "June 2024",
+      end: "July 2024",
+      description:
+        "Incorporated the first website for the organization. Boosted operations by 50% through efficient AI integration in day-to-day processes.Devised strategy to increase the social media presence by 100%.",
+    },
+    {
+      company: "The IT Studio",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Technical Content Developer",
+      logoUrl: "./building.png",
+      start: "July 2023",
+      end: "November 2023",
+      description:
+        "Delivered technical content related to technologies like TypeScript, Next.js, and React.js for the organization's web application and social media handles. Worked with 10+ clients in setting up their web application and providing content in the technical domain. Boosted the organization's social media presence by 80% in the span of 3 months.",
+    },
+  ],
   education: [
     {
-      school: "Sri Sri University, SSU",
-      href: "https://jcboseust.ac.in/",
-      degree: "B.Tech in CSE and specialization in AI/ML )",
+      school: "Sri Sri University, Cuttack",
+      href: "https://srisriuniversity.edu.in/",
+      degree: "B.Tech, Computer Science",
       logoUrl: "/SSU.jpg",
       start: "2023",
       end: "2027",
@@ -156,8 +188,98 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "CodeSync — Collaborative Code Editor",
+      href: "https://code-sync-chi-one.vercel.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "Implemented Operational Transformation (OT) for conflict-free concurrent edits + P2P video/audio via WebRTC (STUN/TURN) — zero merge conflicts in live sessions. Integrated Judge0 sandboxed execution, Event-Sourced Time Travel replay, Redis Pub/Sub horizontal scaling, and Gemini AI code analysis.",
+      technologies: [
+        "Next.js",
+        "Socket.io",
+        "WebRTC",
+        "Redis",
+        "MongoDB",
+        "Judge0",
+        "Gemini API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://code-sync-chi-one.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/saswatt31/CodeSync",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "StreetScan — Smart Infrastructure Reporting",
+      href: "https://street-scan-tw9z.vercel.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "Dual-AI validation (YOLOv8 + Gemini severity scoring 0–100) across IoT, CV pipeline, and citizen portal — reduced false-positive reports; geo-clustering merges duplicates within 15 m.",
+      technologies: [
+        "Next.js 14",
+        "Supabase",
+        "YOLOv8",
+        "Gemini 1.5 Flash",
+        "ESP32",
+        "C++"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://street-scan-tw9z.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/saswatt31/street-scan",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "FitMind AI v2.0",
+      href: "https://fit-mind-ai-five.vercel.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "A high-performance RAG pipeline (FastEmbed + Qdrant + Llama 3.3 70B) delivering TDEE/BMR-calibrated 7-day meal & workout protocols via real-time SSE streaming, with vision-enabled meal analysis and support for multiple local profiles.",
+      technologies: [
+        "FastAPI",
+        "Qdrant",
+        "Sentence-Transformers",
+        "Llama 3.3 70B",
+        "Groq"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://fit-mind-ai-five.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/saswatt31/FitMindAI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "Invoicer",
-      href: "https://github.com/sashhh31/Invoicer",
+      href: "https://github.com/saswatt31/Invoicer",
       dates: "",
       active: true,
       description:
@@ -181,7 +303,7 @@ export const DATA = {
         // },
         {
           type: "Source",
-          href: "https://github.com/sashhh31/Invoicer",
+          href: "https://github.com/saswatt31/Invoicer",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -191,7 +313,7 @@ export const DATA = {
     },
     {
       title: "Scloud",
-      href: "https://github.com/sashhh31/Scloud",
+      href: "https://github.com/saswatt31/Scloud",
       dates: "",
       active: true,
       description:
@@ -209,12 +331,12 @@ export const DATA = {
       links: [
         // {
         //   type: "Website",
-        //   href: "https://github.com/sashhh31/Invoicer",
+        //   href: "https://github.com/saswatt31/Invoicer",
         //   icon: <Icons.globe className="size-3" />,
         // },
         {
           type: "Source",
-          href: "https://github.com/sashhh31/Scloud",
+          href: "https://github.com/saswatt31/Scloud",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -223,7 +345,7 @@ export const DATA = {
     },
     {
       title: "HoloConnect",
-      href: "https://github.com/sashhh31/HoloConnect",
+      href: "https://github.com/saswatt31/HoloConnect",
       dates: "",
       active: true,
       description:
@@ -248,7 +370,7 @@ export const DATA = {
         // },
         {
           type: "Source",
-          href: "https://github.com/sashhh31/HoloConnect",
+          href: "https://github.com/saswatt31/HoloConnect",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -257,7 +379,7 @@ export const DATA = {
     },
     {
       title: "Genix",
-      href: "https://github.com/sashhh31/Genix",
+      href: "https://github.com/saswatt31/Genix",
       dates: "",
       active: true,
       description:
@@ -281,7 +403,7 @@ export const DATA = {
         // },
         {
           type: "Source",
-          href: "https://github.com/sashhh31/Genix",
+          href: "https://github.com/saswatt31/Genix",
           icon: <Icons.github className="size-3" />,
         },
       ],
